@@ -18,8 +18,12 @@
   align-items: center;
   background: #111;
   color: #fff;
-  /* transition: 0.5s; */
+  transition: 0.5s;
   z-index: 2;
+}
+
+.showcase.active {
+  right: 300px;
 }
 
 .showcase header {
@@ -146,7 +150,33 @@ header .logo {
   transform: scale(0.2) translateY(-15px);
 }
 
-@media (max-width: 991px) {
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu ul {
+  position: relative;
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #111;
+}
+
+.menu ul li a:hover {
+  color: coral;
+}
+
+@media (max-width: 798px) {
   .showcase .showcase header {
     padding: 40px;
   }
