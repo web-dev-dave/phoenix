@@ -78,9 +78,11 @@ header .logo {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #575553;
+  background: #3d3b3b;
   mix-blend-mode: overlay;
 }
+
+/* background color for overlay 2e2e2e */
 
 .text {
   position: relative;
