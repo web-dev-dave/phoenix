@@ -1,0 +1,36 @@
+.showcase,
+.showcase header {
+  padding: 30px 30px;
+}
+
+.showcase .logo {
+  font-size: 1em;
+}
+
+.showcase {
+  padding: 70px;
+}
+
+.text h2 {
+  font-size: 2em;
+}
+
+.text h3 {
+  font-size: 1em;
+}
+.text p {
+  font-size: 0.7em;
+}
+
+.showcase.active {
+  right: 200px;
+}
+
+.menu {
+  width: 200px;
+}
+
+.menu ul li a {
+  font-size: 18px;
+  margin-right: 20px;
+}
