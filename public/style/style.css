@@ -44,6 +44,12 @@ header .logo {
   cursor: pointer;
 }
 
+header .eight {
+  border-bottom: 3px solid white;
+  font-size: 0.6em;
+  /* vertical-align: middle; */
+}
+
 .toggle {
   position: relative;
   width: 60px;
