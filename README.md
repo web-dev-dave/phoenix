@@ -1,2 +1,3 @@
 # phoenix
-Landing page for my CrossFit box
+
+A Landing page for my CrossFit box
